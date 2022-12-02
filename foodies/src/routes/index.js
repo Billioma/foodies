@@ -1,5 +1,6 @@
 import React from "react";
 import { useRoutes, useLocation } from "react-router-dom";
+import { Layout } from "../components/Layout/PageLayout";
 import { ROUTES } from "./routes";
 
 const Wrapper = () => {
@@ -10,7 +11,11 @@ const Wrapper = () => {
 const Pages = () => {
   const location = useLocation();
 
-  return <Wrapper key={location.pathname} />;
+  return (
+    <Layout>
+      <Wrapper key={location.pathname} />
+    </Layout>
+  );
 };
 
 export default Pages;
