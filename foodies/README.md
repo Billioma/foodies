@@ -1,5 +1,7 @@
 This project was created using React Frameworks## Available Scripts
 
+Fully Mobile Responsive
+
 In the project directory, you can run:
 
 ### `yarn start`
@@ -19,4 +21,4 @@ Formats the codebase and any errors that can be auto-fixed.\
 
 The Project was deployed using Netlify Hostbase
 
-[Live Page](https://transmonitor-test.netlify.app/overview)
+[Live Page](https://bilal-foodies.netlify.app/)
