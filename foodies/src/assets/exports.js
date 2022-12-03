@@ -11,3 +11,4 @@ export { default as phone } from "./phone.png";
 export { default as recommend } from "./recommend.png";
 export { default as logo } from "./logo.png";
 export { default as order } from "./order.png";
+export { default as recommendAv } from "./recommendAv.png";

@@ -1,10 +1,10 @@
-import { Button, Flex, GridItem, Heading, Image, Text } from "@chakra-ui/react";
 import React from "react";
+import { Button, Flex, GridItem, Heading, Image, Text } from "@chakra-ui/react";
 import { MdAdd } from "react-icons/md";
 
 const GridLayout = ({ img, type, price, active }) => {
   return (
-    <GridItem colSpan={[3, 3, 3, 1]}>
+    <GridItem colSpan={[3, 3, 1, 1]}>
       <Flex
         w="80%"
         flexDir="column"

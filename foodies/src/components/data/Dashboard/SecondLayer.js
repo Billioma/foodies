@@ -1,5 +1,5 @@
-import { Box, Center, Grid } from "@chakra-ui/react";
 import React from "react";
+import { Box, Center, Grid } from "@chakra-ui/react";
 import { item1, item2, item3 } from "../../../assets/exports";
 import GridLayout from "../../common/ItemLayout";
 
@@ -18,6 +18,7 @@ const SecondLayer = () => {
       <Grid
         w={"100%"}
         my={5}
+        gap={3}
         templateColumns={[
           "repeat(1,1fr)",
           "repeat(2,1fr)",

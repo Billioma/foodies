@@ -1,5 +1,5 @@
-import { Box, Center, Grid } from "@chakra-ui/react";
 import React from "react";
+import { Box, Center, Grid } from "@chakra-ui/react";
 import GridLayout from "../../common/FeatureLayout";
 
 const FourthLayer = () => {
@@ -16,6 +16,7 @@ const FourthLayer = () => {
       </Center>
       <Grid
         w={"100%"}
+        px={[0, 0, "10rem", 0]}
         my={5}
         templateColumns={[
           "repeat(1,1fr)",

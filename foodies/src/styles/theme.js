@@ -50,7 +50,6 @@ export const customTheme = extendTheme({
         primary: {
           border: "none",
           bgColor: "lightMode.btnColor",
-          size: "md",
           color: "#fff",
           fontWeight: "700",
           _hover: {

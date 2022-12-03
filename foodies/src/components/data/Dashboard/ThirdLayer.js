@@ -1,5 +1,5 @@
-import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import React from "react";
+import { Box, Flex, Image, Text } from "@chakra-ui/react";
 import { food } from "../../../assets/exports";
 
 const ThirdLayer = () => {
@@ -7,12 +7,15 @@ const ThirdLayer = () => {
     <Box
       my={20}
       background="linear-gradient(180deg, #FAFAFA 0%, rgba(249, 248, 248, 0) 79.13%)"
-      p={20}
-      boxShadow="sm"
+      p={[10, 20, 20, 20]}
       borderRadius="10px"
     >
-      <Flex justifyContent="space-between">
-        <Box w="470px">
+      <Flex
+        justifyContent="space-between"
+        flexDir={["column", "column", "column", "row"]}
+        align="center"
+      >
+        <Box w={["fit-content", "470px", "470px", "470px"]}>
           <Text
             fontWeight={400}
             fontStyle="normal"

@@ -1,3 +1,4 @@
+import React from "react";
 import {
   Box,
   Button,
@@ -8,7 +9,6 @@ import {
   Image,
   Text,
 } from "@chakra-ui/react";
-import React from "react";
 import {
   avatar1,
   avatar2,
@@ -21,10 +21,11 @@ const FirstLayer = () => {
   return (
     <Box>
       <Flex
-        flexDir={["column", "column", "row", "row"]}
+        flexDir={["column", "column", "column", "row"]}
         justifyContent="space-between"
+        align="center"
       >
-        <Box w="470px">
+        <Box w={["fit-content", "470px", "470px", "470px"]}>
           <Text
             fontWeight={400}
             fontStyle="normal"
@@ -43,7 +44,13 @@ const FirstLayer = () => {
             Place Order
           </Button>
 
-          <Box my={20} w="80%" boxShadow="lg" p={2} borderRadius="10px">
+          <Box
+            my={20}
+            w={["100%", "80%", "80%", "80%"]}
+            boxShadow="lg"
+            p={2}
+            borderRadius="10px"
+          >
             <Flex align="center" gap="2rem">
               <HStack align="center" gap="1rem">
                 <Image src={avatar1} />
@@ -60,8 +67,19 @@ const FirstLayer = () => {
         </Box>
         <Box>
           <Box position="relative">
-            <Image src={menu} pos="absolute" ml="-5rem" w="7rem" mt="25rem" />
-            <Image src={order} w="33rem" h="80vh" borderRadius="20px" />
+            <Image
+              src={menu}
+              pos="absolute"
+              ml={["-3rem", "-3rem", "-5rem", "-5rem"]}
+              w={["5rem", "5rem", "7rem", "7rem"]}
+              mt={["20rem", "25rem", "25rem", "25rem"]}
+            />
+            <Image
+              src={order}
+              w={["20rem", "27rem", "33rem", "33rem"]}
+              h={["65vh", "70vh", "80vh", "80vh"]}
+              borderRadius="20px"
+            />
           </Box>
         </Box>
       </Flex>
