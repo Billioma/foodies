@@ -4,7 +4,6 @@ import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 import { customTheme } from "./styles/theme";
 import { ChakraProvider } from "@chakra-ui/react";
-import("https://fonts.cdnfonts.com/css/kaftan-serif-trial");
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
