@@ -2,6 +2,12 @@ This project was created using React Frameworks## Available Scripts
 
 Fully Mobile Responsive
 
+### Deployment
+The Project was deployed using Netlify Hostbase
+
+[Live Page](https://bilal-foodies.netlify.app/)
+
+
 In the project directory, you can run:
 
 ### `yarn start`
@@ -16,9 +22,3 @@ Checks for errors in the background.\
 ### `yarn lint-fix`
 
 Formats the codebase and any errors that can be auto-fixed.\
-
-### Deployment
-
-The Project was deployed using Netlify Hostbase
-
-[Live Page](https://bilal-foodies.netlify.app/)
